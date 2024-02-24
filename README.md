@@ -34,7 +34,7 @@ pip install pandas numpy
 ```
 3. Run the classifier with your dataset:
 ```bash
-python decision_tree.py
+python tree.py
 ```
 Replace decision_tree.py with the path to the script if you're running it from a different directory.
 
@@ -46,6 +46,8 @@ To ensure optimal performance with this classifier, datasets should adhere to th
 - **Label Column:** The final column must be the label or target variable.
 
 - **Preprocessing:** Ensure there are no missing values. If categorical features are present, they should be one-hot encoded prior to running the classifier.
+
+- **Test it out:** A correctly formatted dataset, `messidor_features.txt`, is included for testing. This dataset is utilized to predict the presence of Diabetic Retinopathy in patients. For more information on the dataset, visit [Messidor Dataset Details](https://www.adcis.net/en/third-party/messidor/).
 
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated. If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
