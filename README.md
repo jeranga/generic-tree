@@ -26,7 +26,7 @@ To use this decision tree classifier, clone this repository and ensure you have 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/jeranga/generic-tree.git
 ```
 2. Install dependencies:
 ```bash
